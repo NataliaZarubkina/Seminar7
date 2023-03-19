@@ -58,7 +58,6 @@ void PrintResult(int[,] inArray)
            result += inArray[j,i];           
         }
         result = Math.Round(result/ inArray.GetLength(0), 2);
-        Console.Write(result);
-        Console.Write("; ");
+        Console.Write($"{result}; ");       
     }
 }
